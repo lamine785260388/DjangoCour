@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-produitsListetab=[{id:1,'name':'vent','description':'glasse'},{id:2,'name':'glasse','description':'glasse2'}]
+produitsListetab=[{'id':1,'name':'vent','description':'glasse'},{'id':2,'name':'glasse','description':'glasse2'}]
 def index(request):
     produit='Mon produit3'
     Produits=['produit 1','produit 2','produit3','produit 4']
