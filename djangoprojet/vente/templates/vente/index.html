@@ -1,1 +1,8 @@
-   <h1>Vente {{produit}}  {{produits}} </h1>
+   <h1>Accueil Produit</h1>
+   {% comment %} les produits {% endcomment %}
+   <ul>
+     {% for Produit in produits  %}
+<li><b>{{Produit.Nom}}</b></li>
+      {% endfor %}
+      
+   </ul>
